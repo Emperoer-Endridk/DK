@@ -2,29 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.5">
-    <style>
-        div {
-            color: red;
-        }
-    </style>
-    <title>ENDK</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms lets learn it  </title>
 </head>
 <body>
-   <div>Word processing Program</div>
-   <p>Q.4. Write very short answer of the following questions.</p> 
-   <p>a. Is Ms-Word spreadsheet software?</p>
-   <p>Ans: No, Ms-Word is not spreadsheet software</p>
-   <p>b. Which short cut key is used to select the whole document?</p>
-   <p>Ans: Ctrl+A is the short cut key to select the whole document.</p>
-   <p>c. What is the function of undo and redo command?</p>
-   <p>Ans: The undo command cancels the last action performed on the document and
-     Redo command is used to retrieve the previous task that was cancelled by undo
-     command.</p>
-     <p>d. Write any two word processing software.</p>
-     <p>Ans: Ms-word and word star are the two example of word processing software.</p>
-     <p>e. Write the icon of full justification</p>
-     <p>Ans: The icon of full justification alignment is given below.</p>
-    copy right &copy;&nbsp;&nbsp;&nbsp;blogspot.com
-<body>
+    <h1>Form to apply on web devlopment course = TA</h1>
+    <form action="post">
+        <div>
+        <label for="username">Enter your user name</label>
+        <input type="text" id="username" name="username"
+        placeholder="enter your username" autofocus>
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            </div
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Subscribe to newsletter</label>
+        </div> 
+         <div>
+            <label for="comment">Enter your comment</label>
+            <br>
+            <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+        </div>
+            <div>
+            <select name="Device">
+                <option value="ios">IOS</option>
+                <option value="andorid">Android</option>
+                <option value="desktop">Desktop</option>
+          </select>
+        </div>
+    </form>
+</body>
 </html>
